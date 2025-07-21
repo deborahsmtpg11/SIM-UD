@@ -1,12 +1,20 @@
-
+/* Gaya Umum */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf7ff;
+  margin: 0;
+  padding: 0;
 }
+
 /* Navigasi Menu Utama */
 .navbar {
   background-color: #C8A2C8; /* lilac */
-  padding: 10px;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .navbar ul {
   list-style-type: none;
   display: flex;
@@ -14,8 +22,64 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .navbar a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Kontainer Umum */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1, h2 {
+  color: #7c4d87;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #EED7EE;
+  color: #4c2e4c;
+  padding: 10px;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* Tombol */
+button {
+  background-color: #C8A2C8;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b183b1;
 }
